@@ -3,53 +3,36 @@
     <head>
 <title>OJB Media</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    body{
-        background-color: rgb(19, 19, 19);
-    }
-    h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        color: white
-    }
-    p {
-        font-family: Arial, Helvetica, sans-serif;
-        color: white
-    }
-    a { 
-        font-family: Arial, Helvetica, sans-serif;
-        color: white
-    }
-    #footer {
-            position: fixed;
-            padding: 10px 10px 0px 10px;
-            bottom: 0;
-            width: 100%;
-            /* Height of the footer*/
-            height: 40px;
-        }
-</style>
+<link rel="stylesheet" href="style.css">
     </head>
     <body>
         <nav>
-        <a href="ojb.media">Home</a>
-        <a href="mailto:oscar@ojb.media">Contact</a>
+        <img class="logo-nav" src="/OJB-Logo.png">
+        <a class="title-nav" href="ojb.media">Home</a>
+        <a class="contact-nav" href="mailto:oscar@ojb.media">Contact</a>
         </nav>
         <header>
+            <div>
             <main>
-            <h1 class="responsive-text">Oscar Bunting // OJB Media</h1>
-            <p class="responsive-text"><strong>Hi, I’m Oscar!</strong> I’m a creative specialising in <strong>creating content for the digital era</strong>; from social-friendly video ads, event videography, & all things video to web-design, marketing, and content-creation.<br><br>
+            <h1>Oscar Bunting // OJB Media</h1>
+            <p><strong>Hi, I’m Oscar!</strong> I’m a creative specialising in <strong>creating content for the digital era</strong>; from social-friendly video ads, event videography, & all things video to web-design, marketing, and content-creation.<br><br>
             Check out my showreel, recent work and contact info below.</p>
-            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/qJeVTCQoZQg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+            <div class="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/qJeVTCQoZQg" title="Oscar Bunting Showreel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <button class="button-9" role="button">Showreel</button>
+            <button class="button-9" role="button">Vimeo</button>
+            <button class="button-9" role="button">YouTube</button>
+            <button class="button-9" role="button">Instagram</button>
+            <button class="button-9" role="button">Github</button>
             </main>
+        </div>
         </header>
         <footer>
-            <center>
-                <p class="responsive-text">If you want to work togetehr please reach out to me at <a href="mailto:oscar@ojb.media">oscar@ojb.media</a></p><br>
-        <p class="responsive-text"><strong>Thanks For Visiting!</strong></p><br><br>
-        <p>There is much more to come, keep an eye on this space!</p>
-    </center>
-        <p id="footer" class="responsive-text">© Oscar Butning 2022<br>Built with vanilla HTML, CSS and Javascript</p>
+        <p class="center">If you want to work together, reach out to me at<br> <a href="mailto:oscar@ojb.media">oscar@ojb.media</a></p><br>
+        <p class="center"><b>Thanks For Visiting!</b></p><br><br>
+        <p class="center">There is much more to come, keep an eye on this space!</p>
+        <p id="footer" class="footer">© 2023 Oscar Bunting<br>Built with vanilla HTML, CSS and Javascript</p>
     </footer>
-    
     </body>
 </html>
