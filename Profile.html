@@ -21,15 +21,18 @@
    }
    .container {
       display: flex;
+      /* flex-direction could be coloumn or row */
+      flex-direction: column;
       border: solid 1px white;
    }
 .item {
+   border: 2px solid white;
    margin: 10px
 }
 </style>
  </head>
  <body>
-  <img id="profile-picture" src="/profile-picture.jpg">
+  <img id="profile-picture" src="https://ojb.media/wp-content/uploads/2021/03/82E1862B-DF78-4B6E-9040-88037569A914.png">
   <h1>Oscar Bunting</h1>
   <p><em>verified account</em></p>
   <p>Hello, World!</p>
@@ -40,6 +43,8 @@
   <img src="https://mimo.app/r/ford.png">
   <img src="https://mimo.app/r/truck.png">
   <img src="https://mimo.app/r/van.png">
+
+  <!--Demo of flexbox basics-->
   <div class="container">
    <div class="item">Yoo</div>
    <div class="item">222</div>
