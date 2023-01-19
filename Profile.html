@@ -21,11 +21,20 @@
    }
    .container {
       display: flex;
-      /* flex-direction could be coloumn or row */
+      /* flex-direction could be coloumn or row, row-reverse or column-reverse */
       flex-direction: column;
+      /*aligns content on the main axis*/
+      justify-content: flex-start;
+      /*contains items within the container and stops overflow*/
+      flex-wrap: wrap;
+      /*Aligns content on the cross axis*/
+      align-content: center;
       border: solid 1px white;
+      align-items: center;
    }
 .item {
+   flex-basis: auto;
+   flex-grow: 100px;
    border: 2px solid white;
    margin: 10px
 }
