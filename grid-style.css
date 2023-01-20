@@ -1,0 +1,13 @@
+.grid-container {
+    border: dashed blue;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 10px;
+}
+
+.grid-item {
+    border: dashed red;
+    margin: 5px;
+    background-color: black;
+    color:aliceblue
+}
