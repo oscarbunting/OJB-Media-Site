@@ -34,3 +34,32 @@
     gap: 2px 2px;
 
 }
+
+.span-demo-container {
+    display: grid;
+    border: dashed;
+    padding: 10px;
+    grid-template: 1fr 1fr / 25% 25% 25% 25%;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.item1 {
+    text-align: center;
+    border: dashed blue;
+    grid-column: span 2;
+    background-color: bisque;
+}
+
+.item2 {
+    text-align: center;
+border: dashed blue;
+background-color: lightblue;
+}
+.item3 {
+    text-align: center;
+    border: dashed blue;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    grid-column: span 3;
+}
