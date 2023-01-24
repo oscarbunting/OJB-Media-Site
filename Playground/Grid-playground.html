@@ -40,5 +40,13 @@
             <div class="item2">item 2, takes up 1 column</div>
             <div class="item3">Item 3 takes up 3 columns</div>
         </div>
+        <h1>5th grid:</h1>
+        <p>We can also use areas to span entire columns themselves, and name items within teh columns to make our code more readable. For eaxample if we name each child item with a unique number, we can layout the columns like so: <code>grid-template-areas:"item1 . item2 item3"</code><br>full stops (.) display empty columns. To layout multiple rows like this place each rows content in a different pair of quote marks, for readableity place the code for each row on a new line.<br>For example:<br> <code>grid-template-areas:<br>"item1 item2"<br>"item3 item4";</code> <br>displays item 1 and 2 on the 1st row, and items 3 and 4 on the 2nds row down. We can specify where items should go by giving them the <code>grid-area</code> property with the value matching a columns grid-template-areas name.</p>
+        <div class="area-demo">
+            <div class="area-item-1">Area1</div>
+            <div class="area-item-2">Area2</div>
+            <div class="area-item-3">Area3</div>
+            <div class="area-item-4">Area4</div>
+        </div>
     </body>
 </html>
