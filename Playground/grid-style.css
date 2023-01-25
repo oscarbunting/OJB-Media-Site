@@ -105,3 +105,37 @@ background-color: lightblue;
     padding: 10px;
 }
 
+.website-container {
+    display: grid;
+    grid-gap: 5px;
+    padding: 5px;
+    border: dashed 1px black;
+    grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+
+.item {
+    background-color: #1E96FF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+   }
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+
+    grid-area: footer;
+}
