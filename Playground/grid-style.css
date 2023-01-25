@@ -116,6 +116,18 @@ background-color: lightblue;
     "footer footer";
 }
 
+.website-container-justfy {
+    display: grid;
+    justify-items: start;
+    grid-gap: 5px;
+    padding: 5px;
+    border: dashed 1px black;
+    grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+
 .item {
     background-color: #1E96FF;
     color: #FFFFFF;
@@ -139,3 +151,4 @@ background-color: lightblue;
 
     grid-area: footer;
 }
+
