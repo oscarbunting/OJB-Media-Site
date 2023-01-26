@@ -64,5 +64,15 @@
             <div class="item main">Main Content</div>
             <div class="item footer">Footer</div>
         </div>
+        <h1>Using Grid and Flexbox together:</h1>
+        <p>grid is a great tool for creating the genral layout of an entire page, but it has its limitations.<br>
+        Sometimes, using a flexbox is better, but that also has its limits. We can get the best of both worlds by combining them together.<br>
+        Using grid for the main layout, and Flex for certain sectons of the site. We can do this by placing a flexbbox container inside a grid item. For example, in the below layout the header grid item is also a flexbox container, which allows us to justify only items inside that container, not the wntire page. When combining Grid and flex, we can use properties from both, for example the grid <code>grid-area</code> value, or the flex <code>justify-content</code> property.</p>
+        <div class="website-container">
+            <div class="item flex-header"><a href="/home">Header</a></div>
+            <div class="item sidebar">Sidebar</div>
+            <div class="item main">Main Content</div>
+            <div class="item footer">Footer</div>
+        </div>
     </body>
 </html>

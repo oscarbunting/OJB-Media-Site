@@ -152,3 +152,8 @@ background-color: lightblue;
     grid-area: footer;
 }
 
+.flex-header {
+    grid-area: header;
+    display: flex;
+    justify-content: end;
+}
